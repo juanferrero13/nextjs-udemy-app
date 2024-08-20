@@ -1,5 +1,4 @@
-// const config = require("./config.js")
-import config, { API, NEXTAUTH_SECRET } from "./config.js"
+import config, { API, NEXTAUTH_SECRET, DB_URI } from "./config.js"
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
